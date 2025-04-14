@@ -1,0 +1,118 @@
+#### Initial release v1.0.0 – December 21 2017 ####
+
+#### Major Update v2.0.5 – August 3 2018 ####
+[ADDED] - latest version of the API;
+[ADDED] - Option to add CRON JOBS for sending SMS;
+[ADDED] - Option to setup CRON JOBS;
+[ADDED] - Option for customer to unsubscribe from SMS messages;
+[ADDED] - Option to set custom messages for each notification sent, including custom order status messages;
+[ADDED] - Option to insert shortcodes({customer_firstname}, {customer_lastname}, {order_total}, {order_id}, etc.) in the SMS messages;
+[ADDED] - SMS messages characters left indicator for the maximum allowed characters for SMS messages;
+[IMPROVED] - Functionality and design;
+[FIXED] - API Error
+
+#### Minor Update v2.0.8 – November 30 2018 ####
+[ADDED] - ADDED {order_total} on order state updated
+[ADDED] - Performance and security improvements
+[ADDED] - Option for admin to enable/disable customer consent for receiving SMS notifications
+
+#### Minor Update v2.0.9 – December 5 2018 ####
+[FIXED] - Customer subscribe error
+
+#### Minor Update v3.1.1 – June 1 2019 ####
+[ADDED] - smsgateway24 gateway alternative
+
+#### Minor Update v3.2.1 – June 1 2019 ####
+[ADDED] - option to send sms notifications to suppliers with sold products info
+[FIXED] - sms history log bug
+
+#### Minor Update v3.2.3 – September 11 2019 ####
+[FIXED] - fixed customer subscription page error on PrestaShop 1.7
+
+#### Minor Update v3.2.4 – September 18 2019 ####
+[ADDED] - SMS history pagination
+
+#### Minor Update v3.2.5 – December 12 2019 ####
+[ADDED] - SMS history clear button
+
+#### Minor Update v3.2.6 – February 21 2020 ####
+[ADDED] - ADDED tracking code shortcode for order status update notification
+
+#### Minor Update v3.2.8 – February 22 2020 ####
+[ADDED] - ADDED new shortcodes: {product_data} - displays the order product list
+[ADDED] - ADDED new shortcodes: {order_number} - displays the order number
+[ADDED] - ADDED new shortcodes: {courier_service} - displays the order shipping carrier
+
+#### Minor Update v3.2.9 – February 27 2020 ####
+[ADDED] - ADDED Admin notification for out of stock products
+[ADDED] - ADDED option to notify customers with abandoned carts
+[FIXED] - SMS history pagination bug
+
+#### Minor Update v3.3.0 – May 13 2020 ####
+[FIXED] - Fixed pagination of the sms history list to display results ordered by sent date from latest to oldest
+[UPDATED] - Updated documentation
+
+#### Minor Update v3.3.1 – May 27 2020 ####
+[FIXED] - Fixed error on the order edit page (was redirecting to another order page)
+
+#### Minor update V3.3.2 - July 15 2020 ####
+[ADDED] - ADDED new shortcode: {tracking_link} - displays the the carrier tracking link along with the tracking code of the order
+
+#### Minor update V3.5.5 - July 22 2020 ####
+[ADDED] - ADDED new SMS Gateway: https://smschef.com/ - it offers great SMS plans, the app is very stable and it is a great option
+
+#### Minor update V3.5.6 - August 7 2020 ####
+[ADDED] - ADDED feature to autocomplete mobile phone numbers with a valid country code prefix
+
+#### Minor update V3.5.7 - September 10 2020 ####
+[ADDED] - ADDED feature to populate the empty phone_mobile address field of all customer addresses with the value found in phone field. This option is useful for shop owners that didn't used the phone_mobile field on the address format.
+[FIXED] - Fixed issue with country prefix on bulk numbers fetch
+
+#### Minor update V3.5.8 - September 18 2020 ####
+[FIXED] - Fixed SIM & DEVICE ID options
+
+#### Minor update V3.6.0 - October 12 2020 ####
+[FIXED] - Fixed issue with automatic country prefix addition
+[ADDED] - Small performance improvements
+
+#### Minor update V3.6.1 - November 2 2020 ####
+[ADDED] - Added improvements to the module's page for faster configuration
+
+#### Minor update V3.6.3 - November 11 2020 ####
+[ADDED] - Added option to define multiple admin mobile numbers
+
+#### Minor update V3.6.4 - November 12 2020 ####
+[ADDED] - Added translations for missing labels
+
+#### Minor update V3.6.9 - December 11 2020 ####
+[ADDED] - Added option to send Birthday Messages using CRON JOBS
+[ADDED] - Added option to set custom message with shortcodes for Birthday notifications
+[ADDED] - Added option for debugging
+[ADDED] - Added option to send automatic SMS messages using CRON JOBS for users that have abandoned carts
+[ADDED] - Added option to set the timeframe for automatic SMS messages using CRON JOBS for users that have abandoned carts
+[ADDED] - Added option to set custom message with shortcodes for users that have abandoned carts
+
+#### Minor update V3.7.2 - January 08 2021 ####
+[ADDED] - Added option to send order confirmation/cancellation link to customer
+[ADDED] - Added option for the customer to confirm order
+[ADDED] - Added option for the customer to cancel order
+[ADDED] - Added shortcode for order confirmation/cancellation link
+
+#### Minor update V3.7.3 - February 03 2021 ####
+[ADDED] - Added option to send bulk SMS messages to customers from a specific group
+
+#### Minor update V3.7.4 - March 08 2021 ####
+[UPDATED] - Updated smschef.com API call function
+
+#### Minor update V3.7.5 - March 23 2021 ####
+[UPDATED] - For [PS > 1.7.7.1]: Updated module form displayed on order edit page
+
+#### Minor update V3.7.6 - June 3 2021 ####
+[UPDATED] - Added option to activate duplicated SMS check
+
+#### Minor update V3.7.7 - April 7 2022 ####
+[UPDATED] - Fixed debug informations
+[UPDATED] - Fixed orderid & order reference shortcodes
+
+#### Minor update V3.7.8 - September 13 2022 ####
+[UPDATED] - Updated smschef.com API call function
